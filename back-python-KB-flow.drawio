@@ -1,9 +1,35 @@
-<mxfile host="app.diagrams.net" modified="2024-03-29T00:36:14.527Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" version="24.2.1" etag="r3dyiJrjuDXTRtyskfZW" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-29T01:42:22.845Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="UFUSMctSOlGQ_Rd9vfGV" version="24.2.1" type="github">
   <diagram name="Page-1" id="AxZwYcspuDDrwGgdUPsC">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="pKpCfog6l4TZnGH4a5bt-8" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="490" y="20" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pKpCfog6l4TZnGH4a5bt-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pKpCfog6l4TZnGH4a5bt-10" target="pKpCfog6l4TZnGH4a5bt-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pKpCfog6l4TZnGH4a5bt-10" value="Create Task manager (local/azure) with embedding files and role" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="480" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pKpCfog6l4TZnGH4a5bt-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="pKpCfog6l4TZnGH4a5bt-8" target="pKpCfog6l4TZnGH4a5bt-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="150" as="sourcePoint" />
+            <mxPoint x="540" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pKpCfog6l4TZnGH4a5bt-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pKpCfog6l4TZnGH4a5bt-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pKpCfog6l4TZnGH4a5bt-15" value="Create VectoreBaseCreator instance with task manager and openai key" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="480" y="220" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="pKpCfog6l4TZnGH4a5bt-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="pKpCfog6l4TZnGH4a5bt-15" target="pKpCfog6l4TZnGH4a5bt-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
